@@ -1,1 +1,30 @@
-
+div.one{
+    background-image: linear-gradient(to top right, yellow, green);
+    height: 200px;
+    width: 200px;
+}
+div.two{
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(circle, red 10%, yellow 40%, green 50%);
+}
+div.three{
+    height: 150px;
+    width: 200px;
+    background-image: radial-gradient(farthest-side at 60% 55%, red , yellow , green);
+}
+/* div.four{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red, yellow, green, blue, black, purple);
+} */
+div.wheel{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(#ff0000 0deg, #ff7700 30deg, #ffff00 60deg, #77ff00 90deg, #00ff00 120deg, #00ff77 150deg, #00ffff 180deg, #0077ff 210deg, #0000ff 240deg, #7700ff 270deg, #ff00ff 300deg, #ff0077 330deg);
+    border-radius: 50%;
+}
+img {
+    width: 30em;
+}
