@@ -1,30 +1,114 @@
-div.one{
-    background-image: linear-gradient(to top right, yellow, green);
-    height: 200px;
-    width: 200px;
+*{
+    margin: 0;
 }
-div.two{
-    height: 150px;
-    width: 200px;
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: radial-gradient(circle, red 10%, yellow 40%, green 50%);
-}
-div.three{
-    height: 150px;
-    width: 200px;
-    background-image: radial-gradient(farthest-side at 60% 55%, red , yellow , green);
-}
-/* div.four{
-    height: 200px;
-    width: 200px;
-    background-image: conic-gradient(red, yellow, green, blue, black, purple);
+/* body{
+    cursor: e-resize;
 } */
-div.wheel{
-    height: 200px;
-    width: 200px;
-    background-image: conic-gradient(#ff0000 0deg, #ff7700 30deg, #ffff00 60deg, #77ff00 90deg, #00ff00 120deg, #00ff77 150deg, #00ffff 180deg, #0077ff 210deg, #0000ff 240deg, #7700ff 270deg, #ff00ff 300deg, #ff0077 330deg);
-    border-radius: 50%;
+div.btn{
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    width: 50%;
 }
-img {
-    width: 30em;
+div.btn button{
+    padding: 1em 4em;
+    border-radius: 10px;
+    background-color: #ff3344;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #ff3344;
+    }
+    div.btn button:hover{
+        background-color: #fff;
+        color: #ff3344;
+    }
+ section {
+    display: none;
+    visibility: hidden;
+ }
+.show{
+    display: contents;
+    visibility: visible;
+}
+.hide{
+    display: none;
+    visibility: hidden;
+}
+div.inputtwo{
+        margin: 2% auto;
+        width: 35%;
+    gap: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: #334   4ff; */
+}
+div.inputtwo input{
+    border: 2px solid #ff3344;
+    width: 7em;
+    padding: 3em;
+    border-radius: 20px;
+    outline: none;
+}
+/* div.inputtwo input:nth-child(2){
+    display: block;
+} */
+section.twoby button{
+    cursor: pointer;
+    position: relative;
+    /* left: 36em;
+    top: 1.5em; */
+    background-color: #ff3344;
+    color: #fff;
+    padding: 1em 3em;
+    border: 1px solid #ff3344;
+    border-radius: 30px;
+}
+section.twoby button:hover{
+    background-color: #fff;
+    color: #ff3344;
+}
+section.twoby p{
+    padding: 2em 0;
+}
+section.twoby{
+    text-align: center;
+    color: #ff3344;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section.threeby button{
+    cursor: pointer;
+    position: relative;
+                    /* left: 36em;
+                    top: 1.5em; */
+    background-color: #ff3344;
+    color: #fff;
+    padding: 1em 3em;
+    border: 1px solid #ff3344;
+    border-radius: 30px;
+}
+section.threeby button:hover{
+    background-color: #fff;
+    color: #ff3344;
+}
+section.threeby p{
+    padding: 2em 0;
+}
+section.threeby{
+    text-align: center;
+    color: #ff3344;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.inputthree{
+    margin: 2% auto;
+    width: 47%;
+gap: 2em;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+/* background-color: #3344ff; */
+}
+div.inputthree input{
+border: 2px solid #ff3344;
+width: 7em;
+padding: 3em;
+border-radius: 20px;
+outline: none;
 }
